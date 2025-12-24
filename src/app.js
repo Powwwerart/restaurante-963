@@ -20,8 +20,13 @@ const SOCIAL_TITLE = {
   en: 'Social',
 };
 const WHATSAPP_LABEL = {
+ codex/create-qr-menu-system-for-restaurants-wbki19
   es: 'WhatsApp',
   en: 'WhatsApp',
+
+  es: 'Contactar por WhatsApp',
+  en: 'Contact via WhatsApp',
+ main
 };
 
 const elements = {

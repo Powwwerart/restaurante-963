@@ -1,8 +1,14 @@
 :root {
   color-scheme: light;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   background-color: #f5f5f2;
   color: #1e1e1e;
+=======
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #1f1f1f;
+ main
 }
 
 * {
@@ -12,21 +18,30 @@
 }
 
 body {
+ codex/create-qr-menu-system-for-restaurants-wbki19
   background-color: #f5f5f2;
+=======
+  background-color: #f7f7f7;
+ main
 }
 
 .page {
   max-width: 720px;
   margin: 0 auto;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   padding: 28px 20px 56px;
   background: #ffffff;
   min-height: 100vh;
+=======
+  padding: 24px 20px 48px;
+ main
 }
 
 .header {
   display: flex;
   flex-direction: column;
   gap: 12px;
+codex/create-qr-menu-system-for-restaurants-wbki19
   margin-bottom: 32px;
 }
 
@@ -34,15 +49,28 @@ body {
   font-size: clamp(2rem, 6vw, 2.5rem);
   font-weight: 700;
   letter-spacing: -0.02em;
+=======
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+ main
 }
 
 .tagline {
   font-size: 1rem;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   color: #7a7a7a;
+=======
+  color: #606060;
+ main
 }
 
 .language-toggle {
   display: inline-flex;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   gap: 10px;
   margin-top: 6px;
 }
@@ -65,24 +93,60 @@ body {
 
 .section {
   margin-bottom: 32px;
+=======
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.lang-button {
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.lang-button.is-active {
+  background: #1f1f1f;
+  color: #ffffff;
+  border-color: #1f1f1f;
+}
+
+.section {
+  margin-bottom: 24px;
+ main
 }
 
 .section-title {
   font-size: 1.2rem;
   font-weight: 600;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   margin-bottom: 14px;
 }
 
 .menu-section {
   margin-bottom: 20px;
+=======
+  margin-bottom: 12px;
+}
+
+.menu-section {
+  margin-bottom: 16px;
+ main
 }
 
 .menu-category {
   font-size: 1.05rem;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   font-weight: 700;
   margin-bottom: 10px;
   padding-bottom: 8px;
   border-bottom: 1px solid #ececec;
+=======
+  font-weight: 600;
+  margin-bottom: 8px;
+ main
 }
 
 .menu-list,
@@ -90,20 +154,32 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   gap: 12px;
+=======
+  gap: 8px;
+ main
 }
 
 .menu-item {
   display: flex;
   justify-content: space-between;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   align-items: baseline;
   gap: 16px;
   font-size: 1rem;
   padding-bottom: 6px;
+=======
+  gap: 12px;
+  font-size: 0.98rem;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e4e4e4;
+ main
 }
 
 .menu-item-name {
   flex: 1;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   color: #2a2a2a;
 }
 
@@ -125,6 +201,18 @@ body {
 .info-list li {
   font-size: 0.98rem;
   color: #2b2b2b;
+=======
+}
+
+.menu-item-price {
+  font-weight: 600;
+}
+
+.info-block p,
+.info-block a {
+  font-size: 0.98rem;
+  color: #1f1f1f;
+ main
 }
 
 .info-block a {
@@ -132,7 +220,11 @@ body {
 }
 
 .pending {
+codex/create-qr-menu-system-for-restaurants-wbki19
   color: #9a9a9a;
+=======
+  color: #8a8a8a;
+ main
   font-size: 0.95rem;
 }
 
@@ -140,6 +232,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+codex/create-qr-menu-system-for-restaurants-wbki19
   width: 100%;
   padding: 14px 18px;
   border-radius: 12px;
@@ -148,16 +241,32 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
+=======
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #1f1f1f;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+main
 }
 
 .social-links {
   display: flex;
   flex-direction: column;
+ codex/create-qr-menu-system-for-restaurants-wbki19
   gap: 10px;
 }
 
 .social-links a {
   color: #1e1e1e;
+=======
+  gap: 8px;
+}
+
+.social-links a {
+  color: #1f1f1f;
+main
   text-decoration: underline;
 }
 
