@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menú QR</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <h1 id="restaurant-name" class="title">Pendiente</h1>
+        <p id="restaurant-tagline" class="tagline">Pendiente</p>
+        <div class="language-toggle" role="group" aria-label="Selector de idioma">
+          <button type="button" class="lang-button is-active" data-lang="es">ES</button>
+          <button type="button" class="lang-button" data-lang="en">EN</button>
+        </div>
+      </header>
+
+      <section class="section menu-section">
+        <h2 class="section-title" id="menu-title">Menú</h2>
+        <div id="menu-container" class="menu"></div>
+      </section>
+
+      <section class="section info-card">
+        <h2 class="section-title" id="hours-title">Horarios</h2>
+        <div id="hours-container" class="info-block"></div>
+      </section>
+
+      <section class="section info-card">
+        <h2 class="section-title" id="location-title">Ubicación</h2>
+        <div id="location-container" class="info-block"></div>
+      </section>
+
+      <section class="section" id="contact-section">
+        <div id="whatsapp-container"></div>
+      </section>
+
+      <section class="section info-card" id="social-section">
+        <h2 class="section-title" id="social-title">Redes</h2>
+        <div id="social-container" class="social-links"></div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

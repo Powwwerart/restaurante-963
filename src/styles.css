@@ -1,0 +1,166 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background-color: #f5f5f2;
+  color: #1e1e1e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f2;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 28px 20px 56px;
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: clamp(2rem, 6vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #7a7a7a;
+}
+
+.language-toggle {
+  display: inline-flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.lang-button {
+  border: 1px solid #dadada;
+  background: #ffffff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #1e1e1e;
+}
+
+.lang-button.is-active {
+  background: #1e1e1e;
+  color: #ffffff;
+  border-color: #1e1e1e;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.menu-section {
+  margin-bottom: 20px;
+}
+
+.menu-category {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ececec;
+}
+
+.menu-list,
+.info-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  font-size: 1rem;
+  padding-bottom: 6px;
+}
+
+.menu-item-name {
+  flex: 1;
+  color: #2a2a2a;
+}
+
+.menu-item-price {
+  font-weight: 700;
+  color: #1b1b1b;
+  text-align: right;
+  min-width: 72px;
+}
+
+.info-card {
+  background: #f4f4f2;
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+
+.info-block p,
+.info-block a,
+.info-list li {
+  font-size: 0.98rem;
+  color: #2b2b2b;
+}
+
+.info-block a {
+  text-decoration: underline;
+}
+
+.pending {
+  color: #9a9a9a;
+  font-size: 0.95rem;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #1f6f4a;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #1e1e1e;
+  text-decoration: underline;
+}
+
+.is-hidden {
+  display: none;
+}
