@@ -1,0 +1,44 @@
+{
+  "slug": "restaurante-963",
+  "name": { "es": "Restaurante 963", "en": "Restaurant 963" },
+  "tagline": { "es": "Menú QR minimalista", "en": "Minimalist QR menu" },
+  "location": {
+    "address": "",
+    "city": "",
+    "state": "",
+    "googleMapsUrl": ""
+  },
+  "hours": {
+    "schedule": [
+      { "days": "Mon-Fri", "open": "", "close": "" },
+      { "days": "Sat", "open": "", "close": "" },
+      { "days": "Sun", "open": "", "close": "" }
+    ]
+  },
+  "contact": {
+    "phone": "",
+    "whatsapp": "",
+    "whatsappMessage": {
+      "es": "Hola, vi su menú por QR y quisiera información.",
+      "en": "Hi, I saw your menu via QR and would like information."
+    }
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "website": ""
+  },
+  "currency": "USD",
+  "menu": [
+    {
+      "category": { "es": "Especialidades", "en": "Specialties" },
+      "items": [
+        {
+          "name": { "es": "Producto", "en": "Product" },
+          "price": 0
+        }
+      ]
+    }
+  ]
+}
