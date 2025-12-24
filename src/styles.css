@@ -1,0 +1,147 @@
+:root {
+  color-scheme: light;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #1f1f1f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #606060;
+}
+
+.language-toggle {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.lang-button {
+  border: 1px solid #d0d0d0;
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.lang-button.is-active {
+  background: #1f1f1f;
+  color: #ffffff;
+  border-color: #1f1f1f;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.menu-section {
+  margin-bottom: 16px;
+}
+
+.menu-category {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.menu-list,
+.info-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.98rem;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.menu-item-name {
+  flex: 1;
+}
+
+.menu-item-price {
+  font-weight: 600;
+}
+
+.info-block p,
+.info-block a {
+  font-size: 0.98rem;
+  color: #1f1f1f;
+}
+
+.info-block a {
+  text-decoration: underline;
+}
+
+.pending {
+  color: #8a8a8a;
+  font-size: 0.95rem;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #1f1f1f;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-links a {
+  color: #1f1f1f;
+  text-decoration: underline;
+}
+
+.is-hidden {
+  display: none;
+}
